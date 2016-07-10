@@ -62,10 +62,10 @@ form.addEventListener("submit", function(evt){
 	var apellidosRadioInput = {
 		"apellidos_si": document.getElementById("apellidos_si"),
 		"apellidos_no": document.getElementById("apellidos_no")
-	};
+	};*/
 	var emailInput = document.getElementById("email");
 
-	var misionesRadioInput = {
+	/*var misionesRadioInput = {
 		"mision1": document.getElementById("tipo_mision_1"),
 		"mision2": document.getElementById("tipo_mision_2"),
 		"mision3": document.getElementById("tipo_mision_3"),
@@ -99,8 +99,8 @@ form.addEventListener("submit", function(evt){
 			document.getElementById("apellidos").focus();
 			evt.preventDefault();
 			return false;
-		}
-	}*/
+		}*/
+	}
 
 	if (email.checkValidity() == false) {
 		alert("Escribe tu email");
