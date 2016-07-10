@@ -89,6 +89,10 @@ body {
 	font-size: 26px;
 }
 
+.about-me {
+	padding: 300px 20px 100px 20px;
+}
+
 .about-me .foto-josefco{
 	max-width: 50%;
 	float: right;
@@ -133,6 +137,40 @@ body {
 	align-self: center;
 }
 
+.footer {
+	background-color: rgba(0, 0, 0, 0.92);
+	color: white;
+	height: 50px;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form {
+	padding: 200px 20px 200px 20px;
+}
+
+.form .form-row {
+	padding: 10px;
+}
+
+input {
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset], button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 40px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0px;
+}
 
 table {
 	width: 100%;
